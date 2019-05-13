@@ -7,7 +7,7 @@ import static groovyx.net.http.ContentType.URLENC
 import groovy.json.*
 
 //parse arguments
-def cli = new CliBuilder(usage: 'servicenow-integration_update.groovy [options]', header: 'Options;')
+def cli = new CliBuilder(usage: 'groovy_test.groovy [options]', header: 'Options;')
 
 cli.user(args:1, argName: 'user', required: true, 'user credentials') 
 cli.pwd(args:1, argName: 'pwd', required: true, 'password')
